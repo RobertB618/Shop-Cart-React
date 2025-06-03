@@ -5,6 +5,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { IS_DEVELOPMENT } from './config';
 import { FiltersContext } from './context/filters';
+import { useContext } from 'react';
 
 
 function useFilters () {
