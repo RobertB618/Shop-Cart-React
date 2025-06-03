@@ -15,6 +15,7 @@ function useFilters () {
     // minPrice: 0,
   // });
   const filters = useContext(FiltersContext)
+  const setFilters = () => {}
 
   const filterProducts = (products) => { 
     return products.filter((product) => {
@@ -27,7 +28,7 @@ function useFilters () {
       )
     })
   }
-   return { filterProducts,  setFilters };
+   return { filterProducts,  setFilters, setFilters };
 }
 
 function App() {
