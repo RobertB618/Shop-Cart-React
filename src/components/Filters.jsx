@@ -35,6 +35,7 @@ export function Filters () {
                 min='0'
                 max='1000'
                 onChange={handleChangeMinPrice}
+                value={filters.minPrice}
             />
             <span>${filters.minPrice}</span>
         </div>
