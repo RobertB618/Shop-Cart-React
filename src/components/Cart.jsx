@@ -3,6 +3,7 @@ import { useId } from "react";
 import { CartIcon, ClearCartIcon } from "./icons";
 
 
+
 export function Cart () {
 
     const cartCheckboxId = useId();
@@ -29,7 +30,7 @@ export function Cart () {
                             Qty: 1
                             </small>
                         <button>+</button>
-<                        </footer>
+<                       </footer>
                     </li>
                 </ul>
                 <button>
