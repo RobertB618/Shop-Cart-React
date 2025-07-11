@@ -1,14 +1,13 @@
-import { useFilters } from '../hooks/useFilters'
+//import { useFilters } from '../hooks/useFilters'
 import './Footer.css'
 
 export function Footer () {
-   const { filters } = useFilters()
+   //const { filters } = useFilters()
+   
 
   return (
     <footer className='footer'>
-      {
-        JSON.stringify(filters, null, 2)
-      }
+        <h4>Shop Cart</h4>
     </footer>
   )
 }
